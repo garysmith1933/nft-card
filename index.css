@@ -1,0 +1,64 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+#content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  width: 20%;
+  border-radius: 10px;
+  background-color:hsl(216, 50%, 16%);
+  text-align: left;
+}
+
+#image {
+  height: 325px;
+  width: 90%;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+#content {
+  color:hsl(0, 0%, 100%);
+  text-align: left;
+  margin-left: 1rem;
+}
+
+#card-title {
+  font-weight: 300;
+}
+
+p, #days {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+#content-values {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+#value {
+  color: hsl(178, 100%, 50%);
+}
+
+#name {
+  color:hsl(0, 0%, 100%);
+}
+
+hr {
+  color:hsl(215, 32%, 27%);
+  width: 50%
+}
